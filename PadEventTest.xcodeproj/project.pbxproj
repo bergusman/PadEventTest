@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADAFC17D191BC76300C3AB0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAFC17C191BC76300C3AB0C /* Foundation.framework */; };
+		ADAFC17F191BC76300C3AB0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAFC17E191BC76300C3AB0C /* CoreGraphics.framework */; };
+		ADAFC181191BC76300C3AB0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAFC180191BC76300C3AB0C /* UIKit.framework */; };
+		ADAFC187191BC76300C3AB0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADAFC185191BC76300C3AB0C /* InfoPlist.strings */; };
+		ADAFC189191BC76300C3AB0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC188191BC76300C3AB0C /* main.m */; };
+		ADAFC18D191BC76300C3AB0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC18C191BC76300C3AB0C /* AppDelegate.m */; };
+		ADAFC18F191BC76300C3AB0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAFC18E191BC76300C3AB0C /* Images.xcassets */; };
+		ADAFC196191BC76300C3AB0C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAFC195191BC76300C3AB0C /* XCTest.framework */; };
+		ADAFC197191BC76300C3AB0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAFC17C191BC76300C3AB0C /* Foundation.framework */; };
+		ADAFC198191BC76300C3AB0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAFC180191BC76300C3AB0C /* UIKit.framework */; };
+		ADAFC1A0191BC76300C3AB0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADAFC19E191BC76300C3AB0C /* InfoPlist.strings */; };
+		ADAFC1A2191BC76300C3AB0C /* PadEventTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1A1191BC76300C3AB0C /* PadEventTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADAFC199191BC76300C3AB0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAFC171191BC76300C3AB0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAFC178191BC76300C3AB0C;
+			remoteInfo = PadEventTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADAFC179191BC76300C3AB0C /* PadEventTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PadEventTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAFC17C191BC76300C3AB0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADAFC17E191BC76300C3AB0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADAFC180191BC76300C3AB0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADAFC184191BC76300C3AB0C /* PadEventTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PadEventTest-Info.plist"; sourceTree = "<group>"; };
+		ADAFC186191BC76300C3AB0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADAFC188191BC76300C3AB0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADAFC18A191BC76300C3AB0C /* PadEventTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PadEventTest-Prefix.pch"; sourceTree = "<group>"; };
+		ADAFC18B191BC76300C3AB0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADAFC18C191BC76300C3AB0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADAFC18E191BC76300C3AB0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADAFC194191BC76300C3AB0C /* PadEventTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PadEventTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAFC195191BC76300C3AB0C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADAFC19D191BC76300C3AB0C /* PadEventTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PadEventTestTests-Info.plist"; sourceTree = "<group>"; };
+		ADAFC19F191BC76300C3AB0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADAFC1A1191BC76300C3AB0C /* PadEventTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadEventTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADAFC176191BC76300C3AB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAFC17F191BC76300C3AB0C /* CoreGraphics.framework in Frameworks */,
+				ADAFC181191BC76300C3AB0C /* UIKit.framework in Frameworks */,
+				ADAFC17D191BC76300C3AB0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAFC191191BC76300C3AB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAFC196191BC76300C3AB0C /* XCTest.framework in Frameworks */,
+				ADAFC198191BC76300C3AB0C /* UIKit.framework in Frameworks */,
+				ADAFC197191BC76300C3AB0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADAFC170191BC76300C3AB0C = {
+			isa = PBXGroup;
+			children = (
+				ADAFC182191BC76300C3AB0C /* PadEventTest */,
+				ADAFC19B191BC76300C3AB0C /* PadEventTestTests */,
+				ADAFC17B191BC76300C3AB0C /* Frameworks */,
+				ADAFC17A191BC76300C3AB0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADAFC17A191BC76300C3AB0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC179191BC76300C3AB0C /* PadEventTest.app */,
+				ADAFC194191BC76300C3AB0C /* PadEventTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADAFC17B191BC76300C3AB0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC17C191BC76300C3AB0C /* Foundation.framework */,
+				ADAFC17E191BC76300C3AB0C /* CoreGraphics.framework */,
+				ADAFC180191BC76300C3AB0C /* UIKit.framework */,
+				ADAFC195191BC76300C3AB0C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADAFC182191BC76300C3AB0C /* PadEventTest */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC18B191BC76300C3AB0C /* AppDelegate.h */,
+				ADAFC18C191BC76300C3AB0C /* AppDelegate.m */,
+				ADAFC18E191BC76300C3AB0C /* Images.xcassets */,
+				ADAFC183191BC76300C3AB0C /* Supporting Files */,
+			);
+			path = PadEventTest;
+			sourceTree = "<group>";
+		};
+		ADAFC183191BC76300C3AB0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC184191BC76300C3AB0C /* PadEventTest-Info.plist */,
+				ADAFC185191BC76300C3AB0C /* InfoPlist.strings */,
+				ADAFC188191BC76300C3AB0C /* main.m */,
+				ADAFC18A191BC76300C3AB0C /* PadEventTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADAFC19B191BC76300C3AB0C /* PadEventTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC1A1191BC76300C3AB0C /* PadEventTestTests.m */,
+				ADAFC19C191BC76300C3AB0C /* Supporting Files */,
+			);
+			path = PadEventTestTests;
+			sourceTree = "<group>";
+		};
+		ADAFC19C191BC76300C3AB0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC19D191BC76300C3AB0C /* PadEventTestTests-Info.plist */,
+				ADAFC19E191BC76300C3AB0C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADAFC178191BC76300C3AB0C /* PadEventTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAFC1A5191BC76300C3AB0C /* Build configuration list for PBXNativeTarget "PadEventTest" */;
+			buildPhases = (
+				ADAFC175191BC76300C3AB0C /* Sources */,
+				ADAFC176191BC76300C3AB0C /* Frameworks */,
+				ADAFC177191BC76300C3AB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PadEventTest;
+			productName = PadEventTest;
+			productReference = ADAFC179191BC76300C3AB0C /* PadEventTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADAFC193191BC76300C3AB0C /* PadEventTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAFC1A8191BC76300C3AB0C /* Build configuration list for PBXNativeTarget "PadEventTestTests" */;
+			buildPhases = (
+				ADAFC190191BC76300C3AB0C /* Sources */,
+				ADAFC191191BC76300C3AB0C /* Frameworks */,
+				ADAFC192191BC76300C3AB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAFC19A191BC76300C3AB0C /* PBXTargetDependency */,
+			);
+			name = PadEventTestTests;
+			productName = PadEventTestTests;
+			productReference = ADAFC194191BC76300C3AB0C /* PadEventTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADAFC171191BC76300C3AB0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vitaly Berg";
+				TargetAttributes = {
+					ADAFC193191BC76300C3AB0C = {
+						TestTargetID = ADAFC178191BC76300C3AB0C;
+					};
+				};
+			};
+			buildConfigurationList = ADAFC174191BC76300C3AB0C /* Build configuration list for PBXProject "PadEventTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADAFC170191BC76300C3AB0C;
+			productRefGroup = ADAFC17A191BC76300C3AB0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADAFC178191BC76300C3AB0C /* PadEventTest */,
+				ADAFC193191BC76300C3AB0C /* PadEventTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADAFC177191BC76300C3AB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAFC187191BC76300C3AB0C /* InfoPlist.strings in Resources */,
+				ADAFC18F191BC76300C3AB0C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAFC192191BC76300C3AB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAFC1A0191BC76300C3AB0C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADAFC175191BC76300C3AB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAFC18D191BC76300C3AB0C /* AppDelegate.m in Sources */,
+				ADAFC189191BC76300C3AB0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAFC190191BC76300C3AB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAFC1A2191BC76300C3AB0C /* PadEventTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADAFC19A191BC76300C3AB0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAFC178191BC76300C3AB0C /* PadEventTest */;
+			targetProxy = ADAFC199191BC76300C3AB0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADAFC185191BC76300C3AB0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAFC186191BC76300C3AB0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADAFC19E191BC76300C3AB0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAFC19F191BC76300C3AB0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADAFC1A3191BC76300C3AB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ADAFC1A4191BC76300C3AB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADAFC1A6191BC76300C3AB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PadEventTest/PadEventTest-Prefix.pch";
+				INFOPLIST_FILE = "PadEventTest/PadEventTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADAFC1A7191BC76300C3AB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PadEventTest/PadEventTest-Prefix.pch";
+				INFOPLIST_FILE = "PadEventTest/PadEventTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADAFC1A9191BC76300C3AB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PadEventTest.app/PadEventTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PadEventTest/PadEventTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PadEventTestTests/PadEventTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ADAFC1AA191BC76300C3AB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PadEventTest.app/PadEventTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PadEventTest/PadEventTest-Prefix.pch";
+				INFOPLIST_FILE = "PadEventTestTests/PadEventTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADAFC174191BC76300C3AB0C /* Build configuration list for PBXProject "PadEventTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAFC1A3191BC76300C3AB0C /* Debug */,
+				ADAFC1A4191BC76300C3AB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAFC1A5191BC76300C3AB0C /* Build configuration list for PBXNativeTarget "PadEventTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAFC1A6191BC76300C3AB0C /* Debug */,
+				ADAFC1A7191BC76300C3AB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADAFC1A8191BC76300C3AB0C /* Build configuration list for PBXNativeTarget "PadEventTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAFC1A9191BC76300C3AB0C /* Debug */,
+				ADAFC1AA191BC76300C3AB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADAFC171191BC76300C3AB0C /* Project object */;
+}
