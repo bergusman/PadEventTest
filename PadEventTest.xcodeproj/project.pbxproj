@@ -19,6 +19,22 @@
 		ADAFC198191BC76300C3AB0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAFC180191BC76300C3AB0C /* UIKit.framework */; };
 		ADAFC1A0191BC76300C3AB0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADAFC19E191BC76300C3AB0C /* InfoPlist.strings */; };
 		ADAFC1A2191BC76300C3AB0C /* PadEventTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1A1191BC76300C3AB0C /* PadEventTestTests.m */; };
+		ADAFC1AF191BC98600C3AB0C /* DrawTouchesView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1AE191BC98600C3AB0C /* DrawTouchesView.m */; };
+		ADAFC1BE191BCB7F00C3AB0C /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1BC191BCB7F00C3AB0C /* EventViewController.m */; };
+		ADAFC1BF191BCB7F00C3AB0C /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAFC1BD191BCB7F00C3AB0C /* EventViewController.xib */; };
+		ADAFC1C3191BCF4700C3AB0C /* TouchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1C2191BCF4700C3AB0C /* TouchCell.m */; };
+		ADAFC1C5191BCF6200C3AB0C /* TouchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAFC1C4191BCF6200C3AB0C /* TouchCell.xib */; };
+		ADAFC1C8191BD47200C3AB0C /* TouchCell+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1C7191BD47200C3AB0C /* TouchCell+Setup.m */; };
+		ADAFC1CD191BDBFF00C3AB0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1CB191BDBFF00C3AB0C /* ViewController.m */; };
+		ADAFC1CE191BDBFF00C3AB0C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAFC1CC191BDBFF00C3AB0C /* ViewController.xib */; };
+		ADAFC1D1191BEDF000C3AB0C /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1D0191BEDF000C3AB0C /* Application.m */; };
+		ADAFC1D4191BF21C00C3AB0C /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1D3191BF21C00C3AB0C /* View.m */; };
+		ADAFC1D7191BF27100C3AB0C /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1D6191BF27100C3AB0C /* Window.m */; };
+		ADAFC1DA191BF5AE00C3AB0C /* Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1D9191BF5AE00C3AB0C /* Layer.m */; };
+		ADAFC1DD191C13DA00C3AB0C /* TapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1DC191C13DA00C3AB0C /* TapGestureRecognizer.m */; };
+		ADAFC1E0191C1D6D00C3AB0C /* PanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1DF191C1D6D00C3AB0C /* PanGestureRecognizer.m */; };
+		ADAFC1E5191C20D800C3AB0C /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC1E3191C20D800C3AB0C /* ScrollViewController.m */; };
+		ADAFC1E6191C20D800C3AB0C /* ScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAFC1E4191C20D800C3AB0C /* ScrollViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +64,34 @@
 		ADAFC19D191BC76300C3AB0C /* PadEventTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PadEventTestTests-Info.plist"; sourceTree = "<group>"; };
 		ADAFC19F191BC76300C3AB0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADAFC1A1191BC76300C3AB0C /* PadEventTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadEventTestTests.m; sourceTree = "<group>"; };
+		ADAFC1AD191BC98600C3AB0C /* DrawTouchesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawTouchesView.h; sourceTree = "<group>"; };
+		ADAFC1AE191BC98600C3AB0C /* DrawTouchesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawTouchesView.m; sourceTree = "<group>"; };
+		ADAFC1BB191BCB7F00C3AB0C /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		ADAFC1BC191BCB7F00C3AB0C /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		ADAFC1BD191BCB7F00C3AB0C /* EventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
+		ADAFC1C1191BCF4700C3AB0C /* TouchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchCell.h; sourceTree = "<group>"; };
+		ADAFC1C2191BCF4700C3AB0C /* TouchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchCell.m; sourceTree = "<group>"; };
+		ADAFC1C4191BCF6200C3AB0C /* TouchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchCell.xib; sourceTree = "<group>"; };
+		ADAFC1C6191BD47200C3AB0C /* TouchCell+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TouchCell+Setup.h"; sourceTree = "<group>"; };
+		ADAFC1C7191BD47200C3AB0C /* TouchCell+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TouchCell+Setup.m"; sourceTree = "<group>"; };
+		ADAFC1CA191BDBFF00C3AB0C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADAFC1CB191BDBFF00C3AB0C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADAFC1CC191BDBFF00C3AB0C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		ADAFC1CF191BEDF000C3AB0C /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		ADAFC1D0191BEDF000C3AB0C /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
+		ADAFC1D2191BF21C00C3AB0C /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		ADAFC1D3191BF21C00C3AB0C /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		ADAFC1D5191BF27100C3AB0C /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		ADAFC1D6191BF27100C3AB0C /* Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Window.m; sourceTree = "<group>"; };
+		ADAFC1D8191BF5AE00C3AB0C /* Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layer.h; sourceTree = "<group>"; };
+		ADAFC1D9191BF5AE00C3AB0C /* Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Layer.m; sourceTree = "<group>"; };
+		ADAFC1DB191C13DA00C3AB0C /* TapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapGestureRecognizer.h; sourceTree = "<group>"; };
+		ADAFC1DC191C13DA00C3AB0C /* TapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapGestureRecognizer.m; sourceTree = "<group>"; };
+		ADAFC1DE191C1D6D00C3AB0C /* PanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanGestureRecognizer.h; sourceTree = "<group>"; };
+		ADAFC1DF191C1D6D00C3AB0C /* PanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanGestureRecognizer.m; sourceTree = "<group>"; };
+		ADAFC1E2191C20D800C3AB0C /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		ADAFC1E3191C20D800C3AB0C /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		ADAFC1E4191C20D800C3AB0C /* ScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +151,12 @@
 		ADAFC182191BC76300C3AB0C /* PadEventTest */ = {
 			isa = PBXGroup;
 			children = (
+				ADAFC1AB191BC77500C3AB0C /* Views */,
+				ADAFC1AC191BC77A00C3AB0C /* Controllers */,
 				ADAFC18B191BC76300C3AB0C /* AppDelegate.h */,
 				ADAFC18C191BC76300C3AB0C /* AppDelegate.m */,
+				ADAFC1CF191BEDF000C3AB0C /* Application.h */,
+				ADAFC1D0191BEDF000C3AB0C /* Application.m */,
 				ADAFC18E191BC76300C3AB0C /* Images.xcassets */,
 				ADAFC183191BC76300C3AB0C /* Supporting Files */,
 			);
@@ -142,6 +190,78 @@
 				ADAFC19E191BC76300C3AB0C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADAFC1AB191BC77500C3AB0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC1C0191BCF0300C3AB0C /* TouchCell */,
+				ADAFC1AD191BC98600C3AB0C /* DrawTouchesView.h */,
+				ADAFC1AE191BC98600C3AB0C /* DrawTouchesView.m */,
+				ADAFC1D2191BF21C00C3AB0C /* View.h */,
+				ADAFC1D3191BF21C00C3AB0C /* View.m */,
+				ADAFC1D5191BF27100C3AB0C /* Window.h */,
+				ADAFC1D6191BF27100C3AB0C /* Window.m */,
+				ADAFC1D8191BF5AE00C3AB0C /* Layer.h */,
+				ADAFC1D9191BF5AE00C3AB0C /* Layer.m */,
+				ADAFC1DB191C13DA00C3AB0C /* TapGestureRecognizer.h */,
+				ADAFC1DC191C13DA00C3AB0C /* TapGestureRecognizer.m */,
+				ADAFC1DE191C1D6D00C3AB0C /* PanGestureRecognizer.h */,
+				ADAFC1DF191C1D6D00C3AB0C /* PanGestureRecognizer.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		ADAFC1AC191BC77A00C3AB0C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC1E1191C20BE00C3AB0C /* Scroll */,
+				ADAFC1C9191BDAE600C3AB0C /* View */,
+				ADAFC1B5191BCB5C00C3AB0C /* Event */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		ADAFC1B5191BCB5C00C3AB0C /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC1BB191BCB7F00C3AB0C /* EventViewController.h */,
+				ADAFC1BC191BCB7F00C3AB0C /* EventViewController.m */,
+				ADAFC1BD191BCB7F00C3AB0C /* EventViewController.xib */,
+			);
+			name = Event;
+			sourceTree = "<group>";
+		};
+		ADAFC1C0191BCF0300C3AB0C /* TouchCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC1C1191BCF4700C3AB0C /* TouchCell.h */,
+				ADAFC1C2191BCF4700C3AB0C /* TouchCell.m */,
+				ADAFC1C4191BCF6200C3AB0C /* TouchCell.xib */,
+				ADAFC1C6191BD47200C3AB0C /* TouchCell+Setup.h */,
+				ADAFC1C7191BD47200C3AB0C /* TouchCell+Setup.m */,
+			);
+			name = TouchCell;
+			sourceTree = "<group>";
+		};
+		ADAFC1C9191BDAE600C3AB0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC1CA191BDBFF00C3AB0C /* ViewController.h */,
+				ADAFC1CB191BDBFF00C3AB0C /* ViewController.m */,
+				ADAFC1CC191BDBFF00C3AB0C /* ViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ADAFC1E1191C20BE00C3AB0C /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				ADAFC1E2191C20D800C3AB0C /* ScrollViewController.h */,
+				ADAFC1E3191C20D800C3AB0C /* ScrollViewController.m */,
+				ADAFC1E4191C20D800C3AB0C /* ScrollViewController.xib */,
+			);
+			name = Scroll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +339,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADAFC1CE191BDBFF00C3AB0C /* ViewController.xib in Resources */,
 				ADAFC187191BC76300C3AB0C /* InfoPlist.strings in Resources */,
+				ADAFC1C5191BCF6200C3AB0C /* TouchCell.xib in Resources */,
+				ADAFC1BF191BCB7F00C3AB0C /* EventViewController.xib in Resources */,
 				ADAFC18F191BC76300C3AB0C /* Images.xcassets in Resources */,
+				ADAFC1E6191C20D800C3AB0C /* ScrollViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +363,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADAFC1E0191C1D6D00C3AB0C /* PanGestureRecognizer.m in Sources */,
+				ADAFC1CD191BDBFF00C3AB0C /* ViewController.m in Sources */,
+				ADAFC1DD191C13DA00C3AB0C /* TapGestureRecognizer.m in Sources */,
+				ADAFC1C3191BCF4700C3AB0C /* TouchCell.m in Sources */,
+				ADAFC1C8191BD47200C3AB0C /* TouchCell+Setup.m in Sources */,
 				ADAFC18D191BC76300C3AB0C /* AppDelegate.m in Sources */,
+				ADAFC1D1191BEDF000C3AB0C /* Application.m in Sources */,
+				ADAFC1E5191C20D800C3AB0C /* ScrollViewController.m in Sources */,
+				ADAFC1D4191BF21C00C3AB0C /* View.m in Sources */,
+				ADAFC1DA191BF5AE00C3AB0C /* Layer.m in Sources */,
+				ADAFC1BE191BCB7F00C3AB0C /* EventViewController.m in Sources */,
+				ADAFC1AF191BC98600C3AB0C /* DrawTouchesView.m in Sources */,
 				ADAFC189191BC76300C3AB0C /* main.m in Sources */,
+				ADAFC1D7191BF27100C3AB0C /* Window.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

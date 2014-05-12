@@ -8,42 +8,94 @@
 
 #import "AppDelegate.h"
 
+#import "EventViewController.h"
+#import "ScrollViewController.h"
+#import "ViewController.h"
+#import "Window.h"
+
+@interface AppDelegate ()
+
+@property (strong, nonatomic) ViewController *viewVC;
+@property (strong, nonatomic) ScrollViewController *scrollVC;
+
+@end
+
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[Window alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.accessibilityLabel = @"W";
     [self.window makeKeyAndVisible];
+    
+    //self.window.multipleTouchEnabled = YES;
+    
+    EventViewController *eventVC = [[EventViewController alloc] init];
+    [self.window addSubview:eventVC.view];
+    eventVC.view.frame = CGRectMake(0, 1024 - 200, 768, 200);
+    
+    ViewController *viewVC = [[ViewController alloc] init];
+    //[self.window addSubview:viewVC.view];
+    //self.window.rootViewController = viewVC;
+    //viewVC.view.frame = CGRectMake(0, 0, 768, 824);
+    
+    ScrollViewController *scrollVC = [[ScrollViewController alloc] init];
+    [self.window addSubview:scrollVC.view];
+    scrollVC.view.frame = CGRectMake(0, 0, 768, 824);
+    self.scrollVC = scrollVC;
+    
+    self.eventVC = eventVC;
+    self.viewVC = viewVC;
+    
+    //NSLog(@"%@", self.window.gestureRecognizers);
+    
+    /*
+    NSArray *gs = self.window.gestureRecognizers;
+    [gs enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [self.window removeGestureRecognizer:obj];
+    }];
+     */
+    
+    UIScrollView *s = [[UIScrollView alloc] init];
+    
+    NSLog(@"%@", s.gestureRecognizers);
+    
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application
-{
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+    NSLog(@"! %@", change);
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application
-{
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+#pragma mark - Touches
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    [[Application sharedApplication].handlers addObject:@"Dlg"];
+    [super touchesMoved:touches withEvent:event];
+    [self.eventVC handleTouches:touches event:event title:@"Moved"];
 }
 
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [[Application sharedApplication].handlers addObject:@"Dlg"];
+    [super touchesBegan:touches withEvent:event];
+    [self.eventVC handleTouches:touches event:event title:@"Began"];
 }
 
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
+    [[Application sharedApplication].handlers addObject:@"Dlg"];
+    [super touchesCancelled:touches withEvent:event];
+    [self.eventVC handleTouches:touches event:event title:@"Cancelled"];
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    [[Application sharedApplication].handlers addObject:@"Dlg"];
+    [super touchesEnded:touches withEvent:event];
+    [self.eventVC handleTouches:touches event:event title:@"Ended"];
+}
+
+
++ (AppDelegate *)sharedDelegate {
+    return [Application sharedApplication].delegate;
 }
 
 @end
